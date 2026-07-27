@@ -1,0 +1,17 @@
+{
+  "name": "kyuji-drill",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5320",
+    "build": "vite build",
+    "preview": "vite preview --port 5320",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "vitest": "^2.1.0"
+  }
+}
